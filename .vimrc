@@ -77,6 +77,13 @@ omap H ^
 " replay macro in q register
 nnoremap Q @q
 vnoremap Q @q
+" explore files
+nnoremap - :Explore<CR>
+"window movements
+nnoremap <C-H> <C-W>h
+nnoremap <C-J> <C-W>j
+nnoremap <C-K> <C-W>k
+nnoremap <C-L> <C-W>l
 
 " Leader {{{1
 let mapleader = "\<Space>"
